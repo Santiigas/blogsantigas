@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .cartoes{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row; 
+        justify-content: center; 
+        align-items:center;
+        margin: auto;
+        gap: 50px;
+    }
+}
+
+@media (min-width: 1024px){
+    .cartoes{
+        margin:auto;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row; 
+        justify-content: center; 
+        align-items:center;
+    }
+
+    
+}

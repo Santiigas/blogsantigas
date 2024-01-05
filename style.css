@@ -33,6 +33,20 @@ p{
     align-items:center;
     margin: auto;
 }
+.navbar{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+}
+
+.link{
+    width: 300px;
+    height: 2px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #00bbfad5, #9f13cdc5);
+}
 
 .cartoes{
     padding-top: 30px;
@@ -52,7 +66,6 @@ p{
     justify-content: center; 
     align-items:center;
     margin: auto;
-    gap: 20px;
     border-radius: 29px;
     background-color: #ffffff;
     box-shadow:  10px 10px 20px #ebebeb,
