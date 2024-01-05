@@ -9,18 +9,14 @@
         justify-content: center; 
         align-items:center;
         margin: auto;
-        gap: 50px;
+        gap: 100px;
     }
 }
 
 @media (min-width: 1024px){
     .cartoes{
-        margin:auto;
-        padding-top: 30px;
-        display: flex;
         flex-direction: row; 
-        justify-content: center; 
-        align-items:center;
+        gap: 100px;
     }
 
     

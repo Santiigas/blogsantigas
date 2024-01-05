@@ -22,6 +22,7 @@ p{
     font-size: 12px;
     font-weight: 300;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 .logo{
@@ -49,23 +50,23 @@ p{
 }
 
 .cartoes{
-    padding-top: 30px;
+    padding-top: px;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
-    margin: auto;
-    gap: 50px;
+    gap: 35px;
+    padding-bottom: 25px;
 }
 
 .card{
     width: 220px;
     height: 320px;
     border-radius: 20px;
+    display: flex;
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
-    margin: auto;
     border-radius: 29px;
     background-color: #ffffff;
     box-shadow:  10px 10px 20px #ebebeb,
