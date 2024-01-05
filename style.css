@@ -14,6 +14,16 @@
     /*height: 100%;*/
 }
 
+p{
+    padding-top: 15px;
+    margin: auto;
+    width: 320px;
+    font-family: 'Montserrat', sem serifa;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
 .logo{
     padding-top: 20px;
     width: 80px;
@@ -26,14 +36,15 @@
 
 .cartoes{
     padding-top: 30px;
+    display: flex;
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
     margin: auto;
+    gap: 50px;
 }
 
 .card{
-    background-color: aqua;
     width: 220px;
     height: 320px;
     border-radius: 20px;
@@ -41,18 +52,27 @@
     justify-content: center; 
     align-items:center;
     margin: auto;
-    background-color: aqua;
     gap: 20px;
+    border-radius: 29px;
+    background-color: #ffffff;
+    box-shadow:  10px 10px 20px #ebebeb,
+                 -10px -10px 20px #ffffff;
 }
 
 .imagem{
-    display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items:center;
-    background-color: rgb(208, 252, 252);
+    background-color: #ffffff;
     width: 220px;
-    height: 240px;
+    height: 250px;
+}
+
+#imagem1{
+    background-image: url(../imagens/postmalone.jpg);
+    background-size: cover;
+}
+
+.orientacao{
+    padding-top: 14px;
+    margin: auto;
 }
 
 .acesse{
@@ -60,8 +80,17 @@
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
-    background-color: rgb(61, 112, 112);
-    border-radius: 12px;
+    margin: auto;
     width: 150px;
     height: 40px;
+    font-weight: 800;
+    border-radius: 50px;
+    color: white;
+    background: linear-gradient(90deg, #00bbfad5, #9f13cdc5);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.acesse:hover{
+    background: linear-gradient(90deg, #00bbfa, #9f13cd) 
 }
