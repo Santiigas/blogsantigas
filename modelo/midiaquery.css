@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    p{
+        width: 560px;
+        font-size: 13px;
+    }
+    
+    .conteudo{
+        width: 560px;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 1024px){
+    p{
+        width: 560px;
+        font-size: 13px;
+    }
+    
+    .conteudo{
+        width: 560px;
+        align-items: flex-start;
+    }
+}

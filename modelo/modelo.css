@@ -50,11 +50,16 @@ body{
 }
 
 .link{
-    color: linear-gradient(90deg, #00bbfad5, #9f13cdc5);
+    color: black;
     font-size: 16px;
     font-weight: 600;
+    transition: 400ms;
 }
 
+.link:hover{
+    color: #00bbfad5;
+    font-size: 16px;
+}
 
 h1{
     padding-top: 15px;
@@ -133,9 +138,8 @@ p{
     width: 360px;
     font-family: 'Montserrat', sem serifa;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 200;
     text-align: justify;
     padding-bottom: 5px;
-    line-height: 19px
 }
 
