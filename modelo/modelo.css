@@ -29,21 +29,32 @@ body{
     justify-content: center; 
     align-items:center;
     margin: auto;
-}
-.navbar{
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items:center;
+    padding-bottom: 12px;
 }
 
-.link{
+.linha{
     width: 300px;
     height: 2px;
     border-radius: 2px;
     background: linear-gradient(90deg, #00bbfad5, #9f13cdc5);
 }
+
+.navbar{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+    gap: 17px;
+    padding-bottom: 50px;
+}
+
+.link{
+    color: linear-gradient(90deg, #00bbfad5, #9f13cdc5);
+    font-size: 16px;
+    font-weight: 600;
+}
+
 
 h1{
     padding-top: 15px;
@@ -70,12 +81,23 @@ p{
     margin: auto;
     width: 360px;
     font-family: 'Montserrat', sem serifa;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
     text-align: justify;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     text-indent: 15px;
     line-height: 19px
+}
+
+.imagem{
+    width: 360px;
+    height: 320px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    padding-bottom: 10px;
 }
 
 .conteudo{
@@ -95,6 +117,25 @@ p{
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start;
-    padding-bottom: 14px;
+    padding-bottom: 2px;
+}
+
+.atualizacoes{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.informacoes{
+    padding-top: 1px;
+    margin: auto;
+    width: 360px;
+    font-family: 'Montserrat', sem serifa;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: justify;
+    padding-bottom: 5px;
+    line-height: 19px
 }
 
